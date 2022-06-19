@@ -36,6 +36,7 @@ margin-bottom: 0px;
 	justify-content: center;
 }
 
+
 p {
     /* margin: 1em auto;  */
 	margin-top: 15px;
@@ -49,9 +50,9 @@ p {
 
 
 #map {
-    width: 100%;
+	max-width: 790px;
     height: 600px;
-    margin: 5em auto;
+    margin: 2em auto;
     margin-left: 30em auto;
 
 }
@@ -86,14 +87,14 @@ p {
 
 
 #gas-flare-legend {
-	Top: -30em;
+	Top: -36em;
 	background-color: rgb(255, 255, 255);
-	opacity: 50%;
+	opacity: 100%;
 	right: 15rem;
-	left: 2rem;
+	left: -7rem;
 	border-radius: 10px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	padding: 1em 2em 2em;
+	padding: 1em 1em 1em;
 	position: relative;
 	font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	z-index: 10; 
@@ -111,6 +112,7 @@ margin: 0 0 10px;
 }
 	
 #gas-flare-legend div span {
+opacity: 100%;
 border-radius: 50%;
 display: inline-block;
 height: 15px;
@@ -128,6 +130,11 @@ em {
 
 .story-body {
     max-width: 790px;
+    margin: 0 auto;
+}
+
+footer {
+	max-width: 790px;
     margin: 0 auto;
 }
 /* 

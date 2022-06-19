@@ -2,9 +2,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGV4eWFydGh1ciIsImEiOiJja3gwc3M3dHoxN3ByMnZte
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/lexyarthur/cl4ixujtw007314muc6keg5wh',
-    zoom: 1,
+    zoom: .5,
     maxZoom: 6,
-    minZoom: 1,
+    minZoom: .5,
     center: [3.158, 24.797],//[10.108, 35.221],
     projection: 'winkelTripel'
 });
