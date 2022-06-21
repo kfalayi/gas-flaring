@@ -50,10 +50,9 @@ p {
 
 
 #map {
-	max-width: 790px;
     height: 600px;
-    margin: 4em auto;
-    margin-left: 30em auto;
+    margin: 0em auto;
+    /* margin-left: 30em auto; */
 
 }
 
@@ -63,6 +62,10 @@ p {
 	align-content: center;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 .mapboxgl-popup-content {
 	padding: 10px 10px 10px;
@@ -155,29 +158,23 @@ footer {
 	max-width: 790px;
     margin: 0 auto;
 }
-/* 
-@media only screen and (max-width: 600px) {
-	div {
-	  background-color: lightblue;
-	  height: 280px;
-	  width: 220px;
-	}
-  } */
+.row-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 2em;
+}
 
-  /* @media screen and (max-width: 400px) {
-	.post-list > li {
-	  width: 100%;
-	  margin: 20px 0 40px; }
-	  .post-list > li .image {
-		height: 280px;
-		width: 280px;
-		background-size: cover;
-		background-position: center;
-		display: inline-block; }
-	  .post-list > li .title {
-		font-size: 16px; }
-		.post-list > li .title .post-meta {
-		  font-size: 14px; }
-  
-	.social-media-list li {
-	  display: block; } } */
+.column-container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+@media (max-width: 768px) {
+	.row-container {
+		flex-direction: column;
+	}
+}
