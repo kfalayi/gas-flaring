@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 2px;
-    max-width: 55em;
+    width:100%;;
     margin: 0 auto;
     font-family: 'Merriweather';
     font-size: 18px;
@@ -31,10 +31,10 @@ h2 {
 /* h4 {
 margin-bottom: 0px;
 } */
-.story {
+/* .story {
 	display: flex;
 	justify-content: center;
-}
+} */
 
 
 p {
@@ -50,6 +50,7 @@ p {
 
 
 #map {
+    width: 100%;
     height: 600px;
     margin: 0em auto;
     /* margin-left: 30em auto; */
@@ -94,9 +95,8 @@ p {
     /* margin-bottom: 0em; */
 }
 
-
 #gas-flare-legend {
-	Top: 11rem;
+	Top: 15rem;
 	background-color: rgb(255, 255, 255);
 	opacity: 80%;
 	right: 15rem;
@@ -104,11 +104,11 @@ p {
 	border-radius: 10px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	padding: 1em 1em 1em;
-	position: relative;
+	position: absolute;
 	font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	z-index: 10; 
+	z-index: 100; 
 	max-width: 23%;
-	line-height: 1.7em;
+	line-height: 1.7em;   
 }
 
 #gas-flare-legend h3{
@@ -158,23 +158,9 @@ footer {
 	max-width: 790px;
     margin: 0 auto;
 }
-.row-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	gap: 2em;
-}
 
-.column-container {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-}
-
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.row-container {
 		flex-direction: column;
 	}
-}
+} */
